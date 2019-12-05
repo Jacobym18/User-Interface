@@ -64,9 +64,56 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+head, body {
+	width: 1000px;
+	margin: 0 auto;
+}
+body nav a{
+	margin:30px;
+}
 nav{
+	margin-bottom: 10%;
+}
+nav a{
+	text-decoration: none;
+	color: lightgrey;
+}
+#header{
+	height:34%;
+}
+#header .left{
+	display:inline-block;
+	margin:5%;
+	width:50%;
+	
+}
+#header .left h1{
+	font-size:90px;
+	text-align:center;
+	width: 60%;
+}
+#header .right{
+	/* display:inline-block; */
+	float:right;
+}
+button{
+	margin-left:19%;
+}
+#top-cont{
 	display: inline-block;
-	margin: 0 30%;
-	padding: 0 20px;
+	margin-bottom: 5%;
+}
+
+.column1{
+	display: inline-block;
+	width:49%;
+	
+}
+.column2{
+	display: inline-block;
+	/* float: left; */
+	width: 49%; 
+}
+.middle-img{
+	width: 100%;
 }
