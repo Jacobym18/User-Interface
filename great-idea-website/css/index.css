@@ -117,3 +117,23 @@ button{
 .middle-img{
 	width: 100%;
 }
+#bottom-cont{
+	display: inline-block;
+}
+#bottom-cont div{
+display: inline-block;
+width: 33%;
+margin: 5% 0;
+}
+address{
+	margin: 5% 0;
+}
+address p{
+	margin: 2% 0;
+}
+address .street{
+	width: 14%;
+}
+footer{
+	margin:0 40%;
+}
